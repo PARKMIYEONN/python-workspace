@@ -1,6 +1,6 @@
 import random
 
-r = random.randint(20,50)
+r = random.randint(20,60)
 print(r)
 
 
