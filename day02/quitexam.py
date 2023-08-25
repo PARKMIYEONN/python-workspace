@@ -21,8 +21,8 @@
 data = list()
 
 while True:
-    datum = input('데이터 입력 (quit)입력시 종료 : ')
-    if datum == 'quit':
+    datum = input('데이터 입력. quit 입력시 종료 : ')
+    if (datum.lower() == 'quit'):
         break
     else:
         data.append(int(datum))
